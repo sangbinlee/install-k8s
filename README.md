@@ -175,7 +175,25 @@ install-k8s
     sudo kill -9 <PID>
 
 
-#
+# reset k8s
+
+
+    
+    
+    kubeadm reset
+    sudo apt-get purge kubeadm kubectl kubelet kubernetes-cni kube*   
+    sudo apt-get autoremove  
+    sudo rm -rf ~/.kube
+    
+    
+
+
+
+
+
+
+
+
 #
 #
 #
